@@ -1,0 +1,10 @@
+:root {
+    --background: rgba(255, 255, 255, 0);
+    --box: rgb(156, 154, 154);
+    --slider: rgb(255, 255, 255);
+    --thumb: rgb(61, 43, 223);
+    --focus: rgb(29, 236, 11);
+    --outline: rgb(202, 23, 193);
+    --border: rgb(0, 0, 0);
+    --title: rgb(0, 0, 0);
+  }

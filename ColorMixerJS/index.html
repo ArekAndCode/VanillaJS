@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Arek Zawada(ArekAndCode)">
+    <meta name="description" content="Simple RGBA color mixer">
+    <meta name="keywords" content="rgb, rgba, mixer, color, js">
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="./styles/rangestyle.css">
+    <link rel="stylesheet" href="./styles/variable.css">
+    <title>RGBA ColorMixer</title>
+</head>
+<body>
+    <main class="container">
+    <h1 class="title">JavaScript Color Mixer</h1>
+    <ul class="colormixer"> 
+       <li class="list"><p class="name">RED</p><input  type="range" class="range_red slider" min="0" max="255" step="1" value="255"><p class="red_number number">255</p></li>
+       <li class="list"><p class="name">GREEN</p><input type="range" class="range_green slider" min="0" max="255" step="1" value="255"><p class="green_number number">255</p></li>
+       <li class="list"><p class="name">BLUE</p><input type="range" class="range_blue slider" min="0" max="255" step="1" value="255"><p class="blue_number number">255</p></li>
+       <li class="list"><p class="name">OPACITY</p><input type="range" class="range_opacity slider" min="0" max="1" step="0.01" value="1"><p class="opacity_number number">1</p></li>
+    </ul>
+</main>
+    <script src="colormixer.js"></script>
+</body>
+</html>
